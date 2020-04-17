@@ -15,28 +15,63 @@
     background-size:cover;
     background-repeat: no-repeat;
     flex-direction: column;
+    h1{
+        font-size:5.0rem;
+        color:white;
+        p{
+            text-align: center;
+        }
+    }
+    button{
+        padding:1.5% 5%;
+        background-color: white;
+        border:2px solid lightgrey;
+        border-radius: 12px;
+        box-shadow:1.5px 1.5px 1.5px 1.5px darkslategray;
+    }
+    button:hover{
+        background-color: lightgrey;
+        
+    }
+    button:active{
+        background-color:navajowhite;
+        box-shadow:1.5px 1.5px 5px 5px darkslategray;
+    }
     }
     .artists-container{
-        .DSA(flex,space-evenly,center);
+        .DJA(flex,space-evenly,center);
         .artist{
             .center();
             flex-direction: column;
             width:50%;
             height:auto;
-            
+            align-items:center;
             img{
                 width:50%;
                 height:30vh;
-               
+               margin:2%;
+               border-radius: 15px;
+            }
+            img:hover{
+                opacity: .8 ;
             }
             a{
                 text-decoration: none;
                 font-size:1.5rem;
                 text-align:center;
                 margin:2%;
+                color:grey;
             }
-            bio{
-                margin:2%;
+            a:hover{
+                color:darkslategray;
+            }
+            .bio{
+                margin:5%;
+                padding:4% 4%;
+                width:70%;
+                height:40vh;
+                font-size:1.4rem;
+                font-family:Arial, Helvetica, sans-serif;
             }
         }
     }
