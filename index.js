@@ -223,9 +223,9 @@ const artists = [
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(id, name) {
-    /* code here */
+    return `The artist at ${id} is ${name[id].name}`;
   }
-  
+  // console.log(getArtistByIndex(4, artists));
   /**
 
 
@@ -237,26 +237,37 @@ function getArtistByIndex(id, name) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(/*code here*/) {
-    /* code here */
+function removeArtist(array, I){
+    array.splice(I, 1);
+    return array;
   }
-  
+
+  //removeArtist(artists, 0);
+  //console.log(artists);
   /**
 
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(/* Code here */){
-
-    /* Code here */
-
+function get20s(data){
+    let modern = [];
+  for(let i = 0; i < data.length; i++){
+    let yearArr = data[i].years.split(" ");
+    let start = parseInt(yearArr[0]);
+    let end = parseInt(yearArr[2]);
+    if(start > 1900 && end < 1999 ){
+    modern.push(data[i]);
+    
+    }
+  }
+  return modern;
   }
 
+// console.log(get20s(artists));
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
+function lotsOfArt(){
 
-    /* Code here */
 
   }
 
@@ -270,19 +281,14 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
-
-    /* Code here */
+function addArtist(){
 
   }
 
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
-
-    /* Code here */
-
+function checkArtist(){
   }
 
 
