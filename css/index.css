@@ -116,14 +116,13 @@ nav ul li {
 }
 .bigDiv .artists-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
-  flex-direction: row;
 }
 .bigDiv .artists-container .artist {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 .bigDiv .artists-container .artist img {
