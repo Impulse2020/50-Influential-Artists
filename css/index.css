@@ -148,10 +148,10 @@ nav ul li:nth-child(2) {
 }
 .bigDiv .jumboTron button {
   padding: 1.5% 5%;
-  background-color: white;
+  background-color: whitesmoke;
   border: 2px solid lightgrey;
   border-radius: 12px;
-  box-shadow: 1.5px 1.5px 1.5px 1.5px darkslategray;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px darkslategrey;
 }
 .bigDiv .jumboTron button:hover {
   background-color: lightgrey;
@@ -203,4 +203,17 @@ nav ul li:nth-child(2) {
 }
 footer {
   text-align: center;
+}
+@media (max-width:800px) {
+  .bigDiv .artists-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bigDiv .artists-container .artist img,
+  .bigDiv .artists-container .artist a,
+  .bigDiv .artists-container .artist .bio {
+    width: 100%;
+    height: auto;
+  }
 }

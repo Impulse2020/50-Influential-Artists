@@ -23,11 +23,7 @@
         }
     }
     button{
-        padding:1.5% 5%;
-        background-color: white;
-        border:2px solid lightgrey;
-        border-radius: 12px;
-        box-shadow:1.5px 1.5px 1.5px 1.5px darkslategray;
+      .btn(@main-color, lightgrey,@accent-color)  
     }
     button:hover{
         background-color: lightgrey;
@@ -81,4 +77,23 @@
 footer{
 
     text-align: center;
+}
+@media @tablet{
+.bigDiv{
+    .artists-container{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .artist{
+            
+            img, a, .bio{
+            width:100%;
+            height:auto;
+        }
+    }
+    }
+}
+}
+@media @phone{
+    
 }
