@@ -93,15 +93,15 @@ _You will know everything is working properly when you see the styles enabled fo
 * [X] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
 * [ ] Main Content Styles: Use the `main.less` file for styling
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [X] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
 * [ ] Use at least 2 parameters to create your button
 * [ ] Create a hover state that changes the opacity of images to 80%
 * [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
-Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges.
+[X]Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges.
 
 ### Task 3: Stretch Problems
 
@@ -125,6 +125,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master

@@ -225,7 +225,9 @@ const artists = [
 function getArtistByIndex(id, name) {
     return `The artist at ${id} is ${name[id].name}`;
   }
+  
   // console.log(getArtistByIndex(4, artists));
+  
   /**
 
 
@@ -257,7 +259,6 @@ function get20s(data){
     let end = parseInt(yearArr[2]);
     if(start > 1900 && end < 1999 ){
     modern.push(data[i]);
-    
     }
   }
   return modern;
