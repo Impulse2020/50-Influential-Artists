@@ -86,3 +86,47 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+.bigDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.bigDiv header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.bigDiv .jumboTron {
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-image: url('/assets/home.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bigDiv .artists-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.bigDiv .artists-container .artist {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+}
+.bigDiv .artists-container .artist img {
+  width: 30%;
+  height: auto;
+}
